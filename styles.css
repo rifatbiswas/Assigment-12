@@ -1,0 +1,171 @@
+
+
+body.dark-mode {
+    background-color: #212529;
+    color: #fff;
+  }
+  
+  .navbar-dark .navbar-brand {
+    color: #fff;
+  }
+  
+  .navbar-dark .navbar-nav .nav-link {
+    color: rgba(255, 255, 255, 0.55);
+  }
+  
+  .navbar-dark .navbar-nav .nav-link:hover {
+    color: rgba(255, 255, 255, 0.75);
+  }
+  
+
+body{
+    font-family: 'Lato', sans-serif;
+  font-family: 'Merriweather', serif;
+    margin: 0.;
+  }
+  nav {
+  height: 50px;
+  width: 100%;
+  background-color: rgb(36, 33, 33);
+  border-bottom: 2px solid black;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 100px;
+  box-sizing: border-box;
+}
+
+.logo h2 {
+  margin: 0;
+  color: white;
+  text-transform: uppercase;
+  text-align: right;
+}
+
+.logo {
+  text-decoration: none;
+  order: 2;
+}
+
+.menu ul li {
+  display: inline-block;
+  list-style: none;
+  margin-left: 10px;
+}
+
+.menu {
+  order: 1;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.btn {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  background-color: rgb(23, 156, 209);
+  padding: 10px 30px;
+  border-radius: 25px;
+  transition: 0.4s linear;
+  text-align: center;
+}
+
+.btn:hover {
+  box-shadow: 2px 4px rgb(177, 61, 61);
+  background-color: azure;
+}
+
+.btn:hover a {
+  color: blue;
+}
+
+.logo {
+  border-radius: 25px;
+}
+
+  
+  /* nav{
+    height: 50px;
+    width:100%;
+    background-color: rgb(36, 33, 33);
+    border-bottom: 2px solid black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 100px;
+    box-sizing: border-box;
+  
+  
+  }
+  .logo h2{
+   margin: 0; 
+   color: white;
+   text-transform: uppercase;
+   text-align:right ;
+  
+  
+  }
+  .logo{
+    text-decoration: none;
+    order: 2;
+    
+    
+    
+  
+  }
+  .menu ul li{
+  display: inline-block;
+  list-style: none;
+  margin-left: 10px;
+  
+  
+  }
+  .menu{
+    order: 1;
+  }
+  
+   a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+   
+  
+    
+  
+  }
+  .btn{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    background-color: rgb(23, 156, 209);
+    padding: 10px 30px;
+    border-radius: 25px;
+    transition: .4s linear;
+    text-align: center;
+    
+    
+  
+    
+    
+  }
+  .btn:hover{
+    box-shadow: 2px 4px rgb(177, 61, 61);
+    
+    background-color: azure;
+  }
+  .btn:hover a{
+    color:blue;
+  }
+  .logo{
+    border-radius: 25px;
+  }
+   */
+  .container{
+    text-align: center;
+  }
